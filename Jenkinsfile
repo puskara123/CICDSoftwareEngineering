@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "puskara/selab:jenkins"
+        IMAGE = "puskara/IMT2023087:latest"
         VENV = ".venv"
         PYTHON = "python"
     }
